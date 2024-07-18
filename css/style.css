@@ -89,10 +89,8 @@ nav .container{
 
 
 .section_gallery{
-     display: flex;
-     align-items: center;
-     justify-content: center;
-     flex-direction: column;
+     margin: 0 auto;
+     text-align: center;
      margin-bottom: 40px;
 }
 .section_gallery h1{
@@ -320,6 +318,12 @@ textarea{
      .btn{
           width: 100%;
      }
+     .btn:hover{
+          transform: none;
+     }
+     .btn:active{
+          transform: scale(0.9);
+     }
      .section_gallery{
           margin: 0 auto;
           padding-bottom: 30px;
@@ -344,7 +348,12 @@ textarea{
      .btn_contact{
           width: 99%;
      }
-
+     .btn_contact:hover{
+          transform: none;
+     }
+     .btn_contact:active{
+          transform: scale(1.1);
+     }
      footer img{
           display: none;
      }
