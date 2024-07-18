@@ -96,6 +96,7 @@ nav .container{
      margin-bottom: 40px;
 }
 .section_gallery h1{
+
      font-size: 45px;
 }
 
@@ -320,6 +321,8 @@ textarea{
           width: 100%;
      }
      .section_gallery{
+          margin: 0 auto;
+          padding-bottom: 30px;
           width: 90%;
      }
      .section_gallery h1{
